@@ -3,7 +3,7 @@
 # Recipe:: default
 #
 #
-remote_file "/etc/nginx/http-custom.conf" do 
+remote_file "/etc/nginx/servers/pvyoutube/custom.conf" do 
   owner "deploy" 
   group "deploy" 
   mode 0644
